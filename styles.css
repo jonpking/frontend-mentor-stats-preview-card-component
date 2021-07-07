@@ -1,11 +1,28 @@
 body {
     background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
 }
 
 main {
     background-color: hsl(244, 38%, 16%);
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    text-align: center;
+    width: 95%;
+    height: 80vh;
+    margin: 20% auto 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
 }
 
 h1, h2 {
@@ -14,16 +31,18 @@ h1, h2 {
 
 h1 {
     font-weight: 700;
+    font-size: 1.75em;
 }
 
 aside p {
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
 }
 
 article p {
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .accent {
