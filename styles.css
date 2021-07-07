@@ -4,18 +4,26 @@ body {
 
 main {
     background-color: hsl(244, 38%, 16%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 
 h1, h2 {
     color: hsl(0, 0%, 100%);
 }
 
-p {
+h1 {
+    font-weight: 700;
+}
+
+aside p {
     color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 article p {
     color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
 }
 
 .accent {
